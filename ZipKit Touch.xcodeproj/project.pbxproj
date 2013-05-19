@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB3B5C891748858200A061B1 /* Read Me.txt in Resources */ = {isa = PBXBuildFile; fileRef = CB3B5C871748858200A061B1 /* Read Me.txt */; };
+		CB3B5C8A1748858200A061B1 /* ZipKit.png in Resources */ = {isa = PBXBuildFile; fileRef = CB3B5C881748858200A061B1 /* ZipKit.png */; };
 		CB7951471748572400849531 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB7951461748572400849531 /* UIKit.framework */; };
 		CB7951491748572400849531 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB7951481748572400849531 /* Foundation.framework */; };
 		CB79514B1748572400849531 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB79514A1748572400849531 /* CoreGraphics.framework */; };
@@ -23,7 +25,6 @@
 		CB795170174857B700849531 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CB79516F174857B700849531 /* libz.dylib */; };
 		CB79517D174857CB00849531 /* libtouchzipkit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB79517C174857C100849531 /* libtouchzipkit.a */; };
 		CB79518517485C0200849531 /* ZipKit_Touch.png in Resources */ = {isa = PBXBuildFile; fileRef = CB79518317485C0200849531 /* ZipKit_Touch.png */; };
-		CB79518617485C0200849531 /* ZipKitTest.zip in Resources */ = {isa = PBXBuildFile; fileRef = CB79518417485C0200849531 /* ZipKitTest.zip */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CB3B5C871748858200A061B1 /* Read Me.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Read Me.txt"; sourceTree = "<group>"; };
+		CB3B5C881748858200A061B1 /* ZipKit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZipKit.png; sourceTree = "<group>"; };
 		CB7951431748572400849531 /* ZipKit Touch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ZipKit Touch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB7951461748572400849531 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CB7951481748572400849531 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -80,7 +83,6 @@
 		CB79516F174857B700849531 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		CB795171174857C000849531 /* ZipKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ZipKit.xcodeproj; path = ZipKit/ZipKit.xcodeproj; sourceTree = "<group>"; };
 		CB79518317485C0200849531 /* ZipKit_Touch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZipKit_Touch.png; sourceTree = "<group>"; };
-		CB79518417485C0200849531 /* ZipKitTest.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = ZipKitTest.zip; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,8 +149,9 @@
 		CB79514D1748572400849531 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CB3B5C871748858200A061B1 /* Read Me.txt */,
+				CB3B5C881748858200A061B1 /* ZipKit.png */,
 				CB79518317485C0200849531 /* ZipKit_Touch.png */,
-				CB79518417485C0200849531 /* ZipKitTest.zip */,
 				CB79514E1748572400849531 /* ZipKit Touch-Info.plist */,
 				CB79514F1748572400849531 /* InfoPlist.strings */,
 				CB7951521748572400849531 /* main.m */,
@@ -260,7 +263,8 @@
 				CB7951601748572500849531 /* MainStoryboard_iPhone.storyboard in Resources */,
 				CB7951631748572500849531 /* MainStoryboard_iPad.storyboard in Resources */,
 				CB79518517485C0200849531 /* ZipKit_Touch.png in Resources */,
-				CB79518617485C0200849531 /* ZipKitTest.zip in Resources */,
+				CB3B5C891748858200A061B1 /* Read Me.txt in Resources */,
+				CB3B5C8A1748858200A061B1 /* ZipKit.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

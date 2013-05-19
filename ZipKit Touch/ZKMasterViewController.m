@@ -11,10 +11,6 @@
 #import "ZipKit/ZKDefs.h"
 #import "ZipKit/ZKDataArchive.h"
 
-@interface ZKMasterViewController ()
-
-@end
-
 @implementation ZKMasterViewController
 
 - (void) awakeFromNib {
@@ -28,9 +24,9 @@
 - (void) viewDidLoad {
 	[super viewDidLoad];
 	self.detailViewController = (ZKDetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
-    
-	NSString *archivePath = [[NSBundle mainBundle] pathForResource:@"ZipKitTest" ofType:@"zip"];
-	self.archive = [ZKDataArchive archiveWithArchivePath:archivePath];
+
+	self.archive = [ZKDataArchive new];
+	[self.archive deflateFiles:@[[[NSBundle mainBundle] pathForResource:@"Read Me" ofType:@"txt"], [[NSBundle mainBundle] pathForResource:@"ZipKit" ofType:@"png"]] relativeToPath:[[NSBundle mainBundle] bundlePath] usingResourceFork:NO];
 	[self.archive inflateAll];
 }
 
