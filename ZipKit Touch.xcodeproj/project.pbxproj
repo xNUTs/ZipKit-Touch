@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB222F501766261B0032EEB0 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CB222F4F1766261B0032EEB0 /* Settings.bundle */; };
 		CB3B5C891748858200A061B1 /* Read Me.txt in Resources */ = {isa = PBXBuildFile; fileRef = CB3B5C871748858200A061B1 /* Read Me.txt */; };
 		CB3B5C8A1748858200A061B1 /* ZipKit.png in Resources */ = {isa = PBXBuildFile; fileRef = CB3B5C881748858200A061B1 /* ZipKit.png */; };
 		CB7951471748572400849531 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB7951461748572400849531 /* UIKit.framework */; };
@@ -59,6 +60,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CB222F4F1766261B0032EEB0 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		CB3B5C871748858200A061B1 /* Read Me.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Read Me.txt"; sourceTree = "<group>"; };
 		CB3B5C881748858200A061B1 /* ZipKit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZipKit.png; sourceTree = "<group>"; };
 		CB7951431748572400849531 /* ZipKit Touch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ZipKit Touch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,6 +103,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CB222F4E176623080032EEB0 /* Settings - Acknowledgements */ = {
+			isa = PBXGroup;
+			children = (
+				CB222F4F1766261B0032EEB0 /* Settings.bundle */,
+			);
+			name = "Settings - Acknowledgements";
+			sourceTree = "<group>";
+		};
 		CB79513A1748572400849531 = {
 			isa = PBXGroup;
 			children = (
@@ -142,6 +152,7 @@
 				CB7951671748572500849531 /* ZKDetailViewController.h */,
 				CB7951681748572500849531 /* ZKDetailViewController.m */,
 				CB79514D1748572400849531 /* Supporting Files */,
+				CB222F4E176623080032EEB0 /* Settings - Acknowledgements */,
 			);
 			path = "ZipKit Touch";
 			sourceTree = "<group>";
@@ -265,6 +276,7 @@
 				CB79518517485C0200849531 /* ZipKit_Touch.png in Resources */,
 				CB3B5C891748858200A061B1 /* Read Me.txt in Resources */,
 				CB3B5C8A1748858200A061B1 /* ZipKit.png in Resources */,
+				CB222F501766261B0032EEB0 /* Settings.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
